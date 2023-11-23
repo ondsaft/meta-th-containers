@@ -18,5 +18,5 @@ OCI_IMAGE_TAG = "latest"
 CONTAINER_SHELL = "busybox"
 
 IMAGE_INSTALL:append = " ondsaft"
-IMAGE_INSTALL:remove = "packagegroup-core-base-utils"
+#IMAGE_INSTALL:remove = "packagegroup-core-base-utils"
 #IMAGE_INSTALL:append = " libc"
